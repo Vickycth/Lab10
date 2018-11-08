@@ -226,11 +226,5 @@ public class Sorting {
         /*
          * Plot the results if the sorts succeeded.
          */
-        JFrame f = new JFrame();
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.add(new GraphPlotter(timeValues));
-        f.setSize(400, 400);
-        f.setLocation(200, 200);
-        f.setVisible(true);
     }
 }
